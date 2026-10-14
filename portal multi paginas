@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Fitness | Início</title>
+</head>
+<body>
+
+    <header>
+        <h1>Studio Fitness</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="planos.html">Planos, Horários e Modalidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bem-vindo ao Studio Fitness!</h2>
+        <p>
+            Aqui você encontra saúde, qualidade de vida e
+            motivação para alcançar seus objetivos.
+        </p>
+
+        <p>
+            Conheça nossos planos, horários de funcionamento
+            e modalidades de treinamento.
+        </p>
+
+        <a href="planos.html">Conheça nossos planos</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Studio Fitness. Todos os direitos reservados.</p>
+    </footer>
+
+```html
+<main>
+
+    <section id="sobre">
+        <h2>Bem-vindo ao Studio Fitness!</h2>
+
+        <p>
+            O Studio Fitness é o lugar ideal para cuidar da sua
+            saúde, melhorar seu condicionamento físico e alcançar
+            seus objetivos com qualidade e motivação.
+        </p>
+
+        <img
+            src="imagens/academia.jpg"
+            alt="Área de musculação da academia com equipamentos de treino"
+            width="500"
+        >
+    </section>
+
+    <section id="modalidades">
+        <h2>Nossas Modalidades</h2>
+
+        <article>
+            <h3>Musculação</h3>
+            <img
+                src="imagens/musculacao.jpg"
+                alt="Pessoa realizando exercício de musculação"
+                width="300"
+            >
+            <p>
+                Treinos para desenvolver força, resistência
+                muscular e melhorar a qualidade de vida.
+            </p>
+        </article>
+
+        <article>
+            <h3>Treinamento Funcional</h3>
+            <img
+                src="imagens/funcional.jpg"
+                alt="Alunos praticando exercícios funcionais"
+                width="300"
+            >
+            <p>
+                Exercícios dinâmicos para desenvolver equilíbrio,
+                coordenação, agilidade e condicionamento físico.
+            </p>
+        </article>
+
+        <article>
+            <h3>Spinning</h3>
+            <img
+                src="imagens/spinning.jpg"
+                alt="Alunos pedalando em bicicletas de spinning"
+                width="300"
+            >
+            <p>
+                Aulas de ciclismo indoor que ajudam a melhorar
+                a resistência cardiovascular e gastar energia.
+            </p>
+        </article>
+    </section>
+
+    <section id="beneficios">
+        <h2>Por que escolher o Studio Fitness?</h2>
+
+        <article>
+            <h3>Profissionais qualificados</h3>
+            <p>
+                Nossa equipe oferece orientação para ajudar você
+                a treinar com segurança e alcançar seus objetivos.
+            </p>
+        </article>
+
+        <article>
+            <h3>Ambiente motivador</h3>
+            <p>
+                Um espaço preparado para incentivar hábitos
+                saudáveis e promover bem-estar.
+            </p>
+        </article>
+    </section>
+
+    <section id="planos">
+        <h2>Encontre o plano ideal para você!</h2>
+
+        <p>
+            Confira nossos preços, horários de funcionamento
+            e modalidades disponíveis.
+        </p>
+
+        <a href="planos.html">
+            Confira nossa tabela de planos, horários e modalidades
+        </a>
+    </section>
+
+</main>
+
+
+
+
+    <main>
+        <h2>Nossos Planos, Horários e Modalidades</h2>
+
+        <table border="1">
+            <caption>
+                Tabela de planos, preços, horários e modalidades
+                do Studio Fitness
+            </caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Plano</th>
+                    <th scope="col">Preço Mensal</th>
+                    <th scope="col">Horários</th>
+                    <th scope="col">Modalidades</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Básico</td>
+                    <td>R$ 89,90</td>
+                    <td>Segunda a sexta, das 6h às 22h</td>
+                    <td>Musculação</td>
+                </tr>
+
+                <tr>
+                    <td>Premium</td>
+                    <td>R$ 129,90</td>
+                    <td>Segunda a sexta, das 6h às 22h</td>
+                    <td>Musculação e treinamento funcional</td>
+                </tr>
+
+                <tr>
+                    <td>Completo</td>
+                    <td>R$ 159,90</td>
+                    <td>Segunda a sábado</td>
+                    <td>
+                        Musculação, funcional, spinning e FitDance
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        Valores mensais sujeitos a alteração.
+                        Consulte a recepção para mais informações.
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p>
+            <a href="../index.html">Voltar para a página inicial</a>
+        </p>
+    </main>
+
+    
+
+
+<table border="1">
+    <caption>
+        Planos, horários e modalidades do Studio Fitness
+    </caption>
+
+    <thead>
+        <tr>
+            <th scope="col">Plano</th>
+            <th scope="col">Preço mensal</th>
+            <th scope="col">Horário</th>
+            <th scope="col">Modalidades</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td rowspan="2">Básico</td>
+            <td rowspan="2">R$ 89,90</td>
+            <td>Manhã: 6h às 12h</td>
+            <td>Musculação</td>
+        </tr>
+
+        <tr>
+            <td>Noite: 17h às 22h</td>
+            <td>Musculação</td>
+        </tr>
+
+        <tr>
+            <td>Premium</td>
+            <td>R$ 129,90</td>
+            <td>6h às 22h</td>
+            <td>Musculação e funcional</td>
+        </tr>
+
+        <tr>
+            <td>Completo</td>
+            <td>R$ 159,90</td>
+            <td>Segunda a sábado</td>
+            <td>Musculação, spinning e FitDance</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                Aulas coletivas sujeitas à disponibilidade de horários.
+            </td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                Consulte a recepção para conhecer as condições
+                e os descontos disponíveis.
+            </td>
+        </tr>
+    </tfoot>
+</table>
+```
+<footer>
+        <p>&copy; 2026 Studio Fitness. Todos os direitos reservados.</p>
+    </footer>
+
+
+</body>
+
+
+</html>
